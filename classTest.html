@@ -1,0 +1,279 @@
+<!doctype html>
+	<html>
+	<head>
+		<style type="text/css">
+
+			h1
+			{
+				background-image: url("https://www.lironboylston.com/wp-content/uploads/2020/12/WBC_7095.jpg");
+				background-repeat: no-repeat;
+				padding-bottom: 200px;
+				font-size: 200px;
+				color: white;
+				font-family: monospace;
+				margin-top: 0;
+				padding-top: 100px;
+				
+
+
+
+
+				
+			}
+
+			select
+			{
+				background-color: #92817A;
+				color: white;
+				width: 1000px;
+				height: 45px;
+				font-size: 30px;
+
+			}
+
+			button
+			{
+				width: 160px;
+				height: 60px;
+				background-color: #362417;
+				color: white;
+				font-family: cursive;
+			}
+
+			body
+			{
+				color: white;
+				font-size: 50px;
+			}
+
+			p
+			{
+				font-size: 30px;
+				font-family: cursive;
+				color: white;
+				background-color: #92817A;
+
+			}
+
+			h2
+			{
+				font-family: cursive;
+				font-size: 20px;
+				background-color: #92817A;
+				padding-top: 30px;
+				padding-bottom: 40px;
+			}
+
+			a
+            {
+            	color: white;
+            	font-size: 20px;
+            	font-family: cursive;
+            }
+            
+            input
+            {
+                width: 550px;
+                height: 80px;
+                font-size: 30px;
+                font-family: cursive;
+                color: gray;
+            }
+
+
+
+
+
+
+
+
+
+		</style>
+
+		<script type="text/javascript">
+
+			prompt("Enter your pincode for online booking")
+
+			function show() {
+				document.write("<font size='6px'>")
+				document.write("<center>")
+				document.write("<body bgcolor='#92817A'>")
+				document.write("Welcome All!" + "<br>" + "Our restaurant was established in the year 2015. Our dishes are full of flavour and made with love. We wish to achieve our target of being the best value restaurant through our belief in offering the best quality food. Go through our online menu and order something delicious or you can always visit our restaurant. Either ways you won't be dissapointed with our service." + "<br>" + "HAPPY EATING!")
+				document.write("<img src='https://cdn.cnn.com/cnnnext/dam/assets/200120161356-cnn-worlds-best-new-restaurants---madera---simon-brown-photography-1-1-full-169.jpg'>")
+
+			}
+			function display() {
+				
+				
+				
+					alert("Your items have been added to the cart."  )
+				
+			}
+
+
+			function execute()
+			{
+				var date = document.getElementById("date").value;
+				alert("Your table has been booked for, " + date + ". See you soon!")
+			}
+			
+		</script>
+
+		<body bgcolor="black">
+			<a href="#home"> Home</a> &nbsp;&nbsp;&nbsp;
+			<a href="#Soups"> Menu</a>&nbsp;&nbsp;&nbsp;
+			<a href="#team"> Team</a>&nbsp;&nbsp;&nbsp;
+			<a href="#Testimonials">Feedback</a>&nbsp;&nbsp;&nbsp;
+			<a href="#name">Reservations</a>&nbsp;&nbsp;&nbsp;
+			<a href="#contact">Contact Us</a>
+
+		 <center>
+			<h1 id="home"> <b> Foodies </b> <br> <button onclick="show()">ABOUT US</button>
+		</h1> <br>
+
+		<id="menu"> Our Menu <br> 
+			
+		<select name="Soups" id="Soups" multiple="multiple">
+			<option value="Soups"> Soups 
+</option>
+
+
+			<option value="Tomato soup">1.Tomato soup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100 
+</option> 
+
+
+			<option value="Vegetable soup">2.Vegetable soup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+			<option value="Manchow soup">3.Manchow soup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+
+		</select><br><br>
+		<select name="Snacks" id="Snacks" multiple="multiple">
+			<option value="Soups"> Snacks</option>
+			<option value="Veg cheese burger">1.Veg cheese burger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 250</option>
+
+			<option value="Crispy corn">2.Crispy corn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 200</option>
+
+			<option value="Fries">3.Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 150</option>
+
+			<option value="Hakka noodles">4.Hakka noodles &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Dry manchurian">5.Dry manchuraian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Fried rice">6.Fried rice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option> </select><br><br>
+
+			<select name="Pizza" id="Pizza" multiple="multiple">
+			<option value="Pizza"> Pizza</option>
+
+			<option value="Veg paradise">1.Veg paradise &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 400</option>
+
+			<option value="Margharita">2.Margharita&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 350</option>
+
+			<option value="Paneer special">3.Paneer special&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 400</option>
+		</select><br><br>
+
+		<select name="Main course" id="Main course" multiple="multiple">
+			<option value="Main course"> Main course</option>
+			<option value="Butter paneer">1.Butter paneer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Malai kofta">2.Malai kofta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Mix veg">3.Mix veg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Chole">4.Chole &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Tandoori chapati">5.Tandoori chapati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+
+			<option value="Naan">6.Naan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+		</select><br><br>
+
+		<select name="Italian" id="Italian" multiple="multiple">
+			<option value="Italian"> Italian</option>
+
+			<option value="Cheese pasta">1.Cheese pasta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 350</option>
+
+			<option value="Veg garlic pasta">2.Veg garlic pasta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Burrito">3.Burrito&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Fajita">4.Fajita &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 300</option>
+
+			<option value="Pasta pizza">5.Pasta pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 400</option>
+		</select> <br><br>
+
+		<select name="Beverages" id="Beverages" multiple="multiple">
+			<option value="Beverages"> Beverages</option>
+
+			<option value="Cold coffee">1.Cold coffee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 200</option>
+
+			<option value="Soda">2.Soda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+
+			<option value="Cold drink">3.Cold drink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100</option>
+		</select><br> <br>
+
+
+
+
+		<button onclick="display()">Add To Cart</button><br><br><br><br>
+		<u><div id="team">Team</div></u><br>
+		Our Chefs<br>
+		<img src="https://newslivetv.com/wp-content/uploads/2020/10/Today-is-International-Chefs-Day-Here-things-you-should-know.jpg" width="600" height="400"> 
+		<p>Raj Himachal, Head Chef </p>
+		<p>Suman Patel, Head Chef</p>
+		<p>Ram Kapoor, Assistant Chef</p>
+		<p> Nima Sahay, Junior chef</p>
+		<br><br><br>
+
+
+
+		<u><div id="Testimonials">Testimonials</div> </u><br>
+		Some Feedbacks<br><br> 
+		<div style="display: inline-block; background-color:#92817A ;">
+		<img src="C:\Users\HP\Downloads\1.jpeg" width="400" height="200" style="padding: 40px;" >
+	</div>
+	<div style="display: inline-block; background-color: #92817A;">
+		<img src="C:\Users\HP\Downloads\2.jpeg" width="800" height="200" style="padding: 40px;" >
+	</div>
+	<div style="display: inline-block; background-color: #92817A;">
+		<img src="C:\Users\HP\Downloads\3.jpeg" width="500" height="150" style="padding: 40px;" >
+	</div>
+
+		<br><br><br>
+
+
+
+		<u>Reserve a table</u><br><br>
+		<input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+		<input type="text" name="people" id="people" placeholder="Number of people"><br><br>
+		<input type="date" name="date" id="date" placeholder="Date of coming"><br><br>
+		<input type="text" name="time" id="time" placeholder="Morning/Afternoon/Evening/Night"><br> <br>
+		<button onclick="execute()">Book Now</button><br><br><br>
+
+	</center><h2 id="contact"> <pre>              
+	Our Location                     Opening Hours                          Contact Us 
+
+	xyz street, sector 12            Monday to Sunday                       9753388764
+	Bhopal                           9:00 AM - 10:00 PM                     info@gmail.com
+
+
+</pre>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</body>
+	</head>
+	</html>
